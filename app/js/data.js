@@ -87,6 +87,7 @@ var data = {
 			'title': 'Quality Assurance Analyst',
 			'dates': '03/17 – Present',
 			'tasks': [
+				'Provide quality assurance to a multitude of projects and websites.',
 				'Work in tight-knit Agile teams to produce client-requested deliverables in a timely manner.', 
 				'Perform smoke tests on websites during deployment.',
 				'Create and maintain Selenium automation framework.'
