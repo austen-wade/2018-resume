@@ -208,6 +208,12 @@ footer .contact-info a:hover {
     margin: 0mm;
     padding: 0;
   }
+  .header-title {
+    font-size: 8mm;
+  }
+  .section-title {
+    font-size: 5mm;
+  }
   .container {
     -webkit-box-shadow: none;
             box-shadow: none;
