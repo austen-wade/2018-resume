@@ -112,14 +112,5 @@ var data = {
 				'Prepared and inspected vehicles before delivery to customer.'
 			]
 		}
-	],
-	'footer': {
-		links: [
-			{
-				'text': '',
-				'href': ''
-			}
-		],
-		contactInfo: []
-	}
+	]
 }
