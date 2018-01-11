@@ -13,6 +13,8 @@ window.onload = function() {
 	getSkills('tools');
 	getEducation();
 	getExperience();
+
+	revealPage();
 }
 
 function getObjective() {
@@ -82,3 +84,7 @@ function getExperience() {
 		section.experience.innerHTML += endHTML + '</ul></div>';
 	});
 }
+
+function revealPage() {
+	document.querySelector('body').style.opacity = 1;
+};
