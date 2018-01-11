@@ -11,14 +11,15 @@ body {
 .container {
 	min-height: 80vh;
 	margin: 0 150px;
-	padding: 10vh 200px;
+	padding: 10vh 8vw;
 	box-shadow: 0 0 10px #aaa;
 	transition: all 0.1s ease-in-out;
 	@media screen and (max-width: 1480px) {
 		margin: 0;
+		padding: 10vh 8vw;
 	}
 	@media screen and (max-width: 1250px) {
-		padding: 10vh 20vw;
+		padding: 10vh 10vw;
 	}
 	@media screen and (max-width: 780px) {
 		padding: 10vh 20px;
