@@ -6,11 +6,11 @@ var data = {
 	'languages': [
 		{
 			'name': 'Javascript',
-			'comfort': '9'
+			'comfort': '8'
 		},
 		{
 			'name': 'CSS',
-			'comfort': '9'
+			'comfort': '8'
 		},
 		{
 			'name': 'PHP',
@@ -89,7 +89,7 @@ var data = {
 			'tasks': [
 				'Work in tight-knit Agile teams to produce client-requested deliverables in a timely manner.', 
 				'Perform smoke tests on websites during deployment.',
-				''
+				'Create and maintain Selenium automation framework.'
 			]
 		},
 		{

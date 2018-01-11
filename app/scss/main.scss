@@ -14,18 +14,23 @@ body {
 	padding: 10vh 200px;
 	box-shadow: 0 0 10px #aaa;
 	transition: all 0.1s ease-in-out;
-	@media screen and (max-width: 1580px) {
+	@media screen and (max-width: 1480px) {
 		margin: 0;
 	}
 	@media screen and (max-width: 1250px) {
-		padding: 10vh 100px;
+		padding: 10vh 20vw;
 	}
 	@media screen and (max-width: 780px) {
 		padding: 10vh 20px;
 	}
 }
 
+h1,
+h2 {
+	color: $bubble-color;
+}
 header {
+	color: $bubble-color;
 	@media screen and (max-width: 780px) {
 		text-align: center;
 	}
@@ -133,11 +138,23 @@ footer {
 		position: absolute;
 		top: 50%;
 		left: 50%;
+		@media screen and (max-width: 1080px) {
+			text-align: center;
+		}
 		a {
 			text-decoration: none;
 			color: $bubble-color;
+			@media screen and (max-width: 1080px) {
+				display: block;
+			}
 			&:hover {
 				opacity: .5;
+			}
+		}
+
+		span {
+			@media screen and (max-width: 1080px) {
+				display: none;
 			}
 		}
 	}

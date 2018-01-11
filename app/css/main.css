@@ -18,7 +18,7 @@ body {
   transition: all 0.1s ease-in-out;
 }
 
-@media screen and (max-width: 1580px) {
+@media screen and (max-width: 1480px) {
   .container {
     margin: 0;
   }
@@ -26,7 +26,7 @@ body {
 
 @media screen and (max-width: 1250px) {
   .container {
-    padding: 10vh 100px;
+    padding: 10vh 20vw;
   }
 }
 
@@ -34,6 +34,15 @@ body {
   .container {
     padding: 10vh 20px;
   }
+}
+
+h1,
+h2 {
+  color: #02a9ea;
+}
+
+header {
+  color: #02a9ea;
 }
 
 @media screen and (max-width: 780px) {
@@ -164,11 +173,29 @@ footer .contact-info {
   left: 50%;
 }
 
+@media screen and (max-width: 1080px) {
+  footer .contact-info {
+    text-align: center;
+  }
+}
+
 footer .contact-info a {
   text-decoration: none;
   color: #02a9ea;
 }
 
+@media screen and (max-width: 1080px) {
+  footer .contact-info a {
+    display: block;
+  }
+}
+
 footer .contact-info a:hover {
   opacity: .5;
+}
+
+@media screen and (max-width: 1080px) {
+  footer .contact-info span {
+    display: none;
+  }
 }
