@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "austen wade",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "sass": "^1.0.0-beta.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-notify": "^3.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.4",
+    "gulp-sourcemaps": "^2.6.3",
+    "run-sequence": "^2.2.1"
+  }
+}

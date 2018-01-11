@@ -1,0 +1,132 @@
+@import "global";
+@import "header";
+@import "skills";
+@import "footer";
+@import "layout";
+
+$bubble-color: #02a9ea;
+
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+body {
+	margin: 0;
+	color: #444;
+}
+.container {
+	min-height: 80vh;
+	margin: 0 150px;
+	padding: 10vh 200px;
+	box-shadow: 0 0 10px #aaa;
+	transition: all 0.1s ease-in-out;
+	@media screen and (max-width: 1580px) {
+		margin: 0;
+	}
+	@media screen and (max-width: 1250px) {
+		padding: 10vh 100px;
+	}
+	@media screen and (max-width: 780px) {
+		padding: 10vh 20px;
+	}
+}
+
+header {
+	@media screen and (max-width: 780px) {
+		text-align: center;
+	}
+}
+
+.objective {
+	display: none;
+}
+aside {
+	width: 50%;
+	&.left {
+		float: left;
+	}
+
+	&.right {
+		float: right;
+	}
+	@media screen and (max-width: 1080px) {
+		width: 100%;
+		&.left {
+			float: none;
+		}
+
+		&.right {
+			float: none;
+		}		
+	}
+}
+
+
+.clear {
+	clear: both;
+}
+
+.skill { 
+	display: inline-block;
+	font-size: 1.1em;
+	padding: 10px;
+	.comfort {
+		// color: $bubble-color;
+		user-select: none;
+		span {
+			font-size: 0.7em;
+			display: block;
+		}
+		.bubble {
+			color: transparent;
+			border: 1px solid $bubble-color;
+			margin-right: 1px;
+			display: inline-block;
+			width: 10px;
+			&.bubble-active {
+				background-color: $bubble-color;
+				color: transparent;
+			}
+
+			&:first-of-type {
+				border-top-left-radius: 50%;
+				border-bottom-left-radius: 50%;
+			}
+
+			&:last-of-type {
+				border-top-right-radius: 50%;
+				border-bottom-right-radius: 50%;
+			}
+		}
+	}
+	@media screen and (max-width: 1080px) {
+		padding: 5px 5px;
+	}
+	@media screen and (max-width: 780px) {
+		padding: 5px 0;
+	}
+}
+
+.experience {
+	.title, .dates {
+		font-size: 0.8em;
+		color: #444;
+	}
+
+	ul {
+		list-style: square;
+		margin: 10px 0;
+		li {
+			color: #444;
+			font-size: 0.8em;
+		}
+	}
+}
+
+.school {
+	margin-bottom: 10px;
+	.dates {
+		font-size: 0.8em;
+		color: #444;
+	}
+}
