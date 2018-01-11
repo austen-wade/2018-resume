@@ -83,19 +83,20 @@ aside {
 			margin-right: 1px;
 			display: inline-block;
 			width: 10px;
+			height: 10px;
+			opacity: 0.5;
 			&.bubble-active {
 				background-color: $bubble-color;
 				color: transparent;
+				opacity: 1;
 			}
 
 			&:first-of-type {
-				border-top-left-radius: 50%;
-				border-bottom-left-radius: 50%;
+				border-bottom-left-radius: 100%;
 			}
 
 			&:last-of-type {
-				border-top-right-radius: 50%;
-				border-bottom-right-radius: 50%;
+				border-top-right-radius: 100%;
 			}
 		}
 	}
@@ -158,5 +159,30 @@ footer {
 				display: none;
 			}
 		}
+	}
+}
+
+@media print {
+	html,
+	body {
+		margin: 0mm;		
+		padding: 0;
+	}
+	.container {
+		box-shadow: none;
+		padding: 0;
+	}
+	.skill {
+		display: block;
+		padding: 0;
+		.comfort {
+			display: none;
+		}
+	}
+	footer {
+		.github, .codepen, span  {
+			display: none;
+		}
+		text-align: center;
 	}
 }

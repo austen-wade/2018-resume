@@ -108,21 +108,22 @@ aside.right {
   margin-right: 1px;
   display: inline-block;
   width: 10px;
+  height: 10px;
+  opacity: 0.5;
 }
 
 .skill .comfort .bubble.bubble-active {
   background-color: #02a9ea;
   color: transparent;
+  opacity: 1;
 }
 
 .skill .comfort .bubble:first-of-type {
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 100%;
 }
 
 .skill .comfort .bubble:last-of-type {
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-top-right-radius: 100%;
 }
 
 @media screen and (max-width: 1080px) {
@@ -197,6 +198,32 @@ footer .contact-info a:hover {
 
 @media screen and (max-width: 1080px) {
   footer .contact-info span {
+    display: none;
+  }
+}
+
+@media print {
+  html,
+  body {
+    margin: 0mm;
+    padding: 0;
+  }
+  .container {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0;
+  }
+  .skill {
+    display: block;
+    padding: 0;
+  }
+  .skill .comfort {
+    display: none;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .github, footer .codepen, footer span {
     display: none;
   }
 }
