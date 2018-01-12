@@ -14,7 +14,7 @@ body {
 	min-height: 80vh;
 	margin: 0 150px;
 	padding: 10vh 8vw;
-	box-shadow: 0 0 10px #aaa;
+	box-shadow: 0 0 10px #eee;
 	transition: all 0.1s ease-in-out;
 	@media screen and (max-width: 1480px) {
 		margin: 0;
@@ -34,9 +34,6 @@ h2 {
 }
 header {
 	color: $bubble-color;
-	@media screen and (max-width: 780px) {
-		text-align: center;
-	}
 }
 
 .objective {
