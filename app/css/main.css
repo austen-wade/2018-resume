@@ -49,12 +49,6 @@ header {
   color: #02a9ea;
 }
 
-@media screen and (max-width: 780px) {
-  header {
-    text-align: center;
-  }
-}
-
 .objective {
   display: none;
 }
