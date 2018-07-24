@@ -1,3 +1,5 @@
+import data from './data.js';
+import styles from '../scss/main.scss';
 
 var section = {
 	'objective': document.querySelector('.objective'),

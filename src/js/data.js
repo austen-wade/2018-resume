@@ -1,28 +1,28 @@
-var data = {
-	'introduction': `Lifelong computer geek with passion for 
+export default  {
+	introduction: `Lifelong computer geek with passion for 
 	web development &amp; web design seeking a tech career where 
 	my coding skills and attention to detail can be well utilized.`,
 	
-	'languages': [
+	languages: [
 		{
-			'name': 'Javascript',
-			'comfort': '8'
+			name: 'Javascript',
+			comfort: '8'
 		},
 		{
-			'name': 'CSS',
-			'comfort': '8'
+			name: 'CSS',
+			comfort: '8'
 		},
 		{
-			'name': 'PHP',
-			'comfort': '7'
+			name: 'PHP',
+			comfort: '7'
 		},
 		{
-			'name': 'Python',
-			'comfort': '7'
+			name: 'Python',
+			comfort: '7'
 		},
 		{
-			'name': 'C#',
-			'comfort': '6'
+			name: 'C#',
+			comfort: '6'
 		},
 		{
 			'name': 'Java',
