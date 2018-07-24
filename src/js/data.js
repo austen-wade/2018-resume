@@ -5,70 +5,54 @@ export default  {
 	
 	languages: [
 		{
-			name: 'Javascript',
-			comfort: '8'
+			name: 'Javascript'
 		},
 		{
-			name: 'CSS',
-			comfort: '8'
+			name: 'CSS'
 		},
 		{
-			name: 'PHP',
-			comfort: '7'
+			name: 'PHP'
 		},
 		{
-			name: 'Python',
-			comfort: '7'
+			name: 'Python'
 		},
 		{
-			name: 'C#',
-			comfort: '6'
+			name: 'C#'
 		},
 		{
-			'name': 'Java',
-			'comfort': '6'
+			'name': 'Java'
 		}
 	],
 	'tools': [
 		{
-			'name': 'jQuery',
-			'comfort': '8'
+			'name': 'jQuery'
 		},
 		{
-			'name': 'Git',
-			'comfort': '7'
+			'name': 'Git'
 		},
 		{
-			'name': 'SASS (+SCSS)',
-			'comfort': '9'
+			'name': 'SASS (+SCSS)'
 		},
 		{
-			'name': 'LESS',
-			'comfort': '9'
+			'name': 'LESS'
 		},
 		{
-			'name': 'Bootstrap',
-			'comfort': '10'
+			'name': 'Bootstrap'
 		},
 		{
-			'name': 'Pug',
-			'comfort': '7'
+			'name': 'Pug'
 		},
 		{
-			'name': 'Wordpress',
-			'comfort': '5'
+			'name': 'Wordpress'
 		},
 		{
-			'name': 'AEM',
-			'comfort': '6'
+			'name': 'AEM'
 		},
 		{
-			'name': 'ReactJS',
-			'comfort': '4'
+			'name': 'ReactJS'
 		},
 		{
-			'name': 'Selenium',
-			'comfort': '8'
+			'name': 'Selenium'
 		}
 	],
 	'education': [
