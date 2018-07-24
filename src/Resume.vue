@@ -2,6 +2,13 @@
     <div class="container">
         <div class="header">
             <h1 class="title">Austen Wade</h1>
+            <div class="contact-info">
+                <a class="contact-link email" href="mailto:austen.wade.ut@gmail.com">austen.wade.ut@gmail.com</a>
+                <a class="contact-link phone" href="tel:801-989-2439">801-989-2439</a>
+                <a class="contact-link linkedin" href="https://www.linkedin.com/in/austen-wade-3b723613b/">LinkedIn</a>
+                <a class="contact-link github" target="_blank" href="https://www.github.com/austen-wade">GitHub</a>
+                <a class="contact-link codepen" target="_blank" href="https://www.codepen.io/austen-wade">CodePen</a>
+            </div>
         </div>
         <div class="main">
             <div class="left">
@@ -24,7 +31,7 @@
                         <div class="position">{{ job.title }}</div>
                         <div class="workplace">{{ job.workplace }}</div>
                         <div class="dates">{{ job.dates }}</div>
-                        <ul>
+                        <ul class="tasks">
                             <li v-for="task in job.tasks" :key="task">
                                 {{ task }}
                             </li>
@@ -33,17 +40,6 @@
                 </resume-item>
             </div>
         </div>
-        <footer class="footer">
-            <div class="contact-info">
-                <a class="contact-link github" target="_blank" href="https://www.github.com/austen-wade">GitHub</a>
-                <span class="hide-mobile">|</span>
-                <a class="contact-link codepen" target="_blank" href="https://www.codepen.io/austen-wade">CodePen</a>
-                <span class="hide-mobile">|</span> 
-                <a class="contact-link email" href="mailto:austen.wade.ut@gmail.com">austen.wade.ut@gmail.com</a>
-                <span class="hide-mobile">|</span> 
-                <a class="contact-link phone" href="tel:801-989-2439">801-989-2439</a>
-            </div>
-        </footer>
 
     </div>
 </template>
@@ -63,9 +59,6 @@ export default {
 </script>
 
 <style lang="scss">
-// * {
-//     border: 1px solid red;
-// }
 html,
 body {
   margin: 0;
@@ -74,37 +67,49 @@ body {
 .container {
   display: grid;
   grid-gap: 20px;
-  margin: 20px 100px;
+  margin: 100px 150px;
 
   > .main {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 50px;
+
+      .left, .right {
+          display: grid;
+    }
   }
 
   > .header {
     > .title {
+        color: #02a9ea;
       margin: 0;
       font-size: 36px;
       font-weight: 500;
     }
   }
 
-  > .footer {
-    display: grid;
-    justify-items: center;
 
-    > .contact-info {
+     .contact-info {
       > .contact-link {
         text-decoration: none;
-        color: #42b983;
+        color: #02a9ea;
         transition: color 0.2s;
 
+        &:after {
+            content: '|';
+            color: #000;
+            margin: 0 5px 0 8px;
+        }
         &:hover {
           color: black;
+        }
+        &:last-child {
+            &:after {
+                content: none;
+            }
         }
       }
     }
   }
-}
+
 </style>

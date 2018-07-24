@@ -6,23 +6,23 @@ export default  {
     languages: [
         'Javascript',
         'CSS',
-        'PHP',
         'Python',
-        'C#',
-        'Java'
+        'PHP',
+        'Java',
+        'C#'
     ],
     tools: [
-        'jQuery',
         'Git',
         'Sass',
         'Less',
         'Task Runners',
-        'Bootstrap',
         'Wordpress',
         'AEM',
         'Vue.js',
         'React',
-        'Selenium'
+        'Angular 6',
+        'Selenium',
+        'jQuery',
     ],
     education: [
         {
@@ -40,10 +40,10 @@ export default  {
             title: 'Software Engineer',
             dates: '03/18 – Present',
             tasks: [
-                'Provide quality assurance to a multitude of projects and websites.',
-                'Work in tight-knit Agile teams to produce client-requested deliverables in a timely manner.', 
-                'Perform smoke tests on websites during deployment.',
-                'Create and maintain Selenium automation framework.'
+                'Develop modular web components primarily for Content Management Systems such as Adobe Experience Manager and Wordpress.',
+                'Automate tasks as needed internally, primarily with Python.',
+                'Work in tight-knit Agile teams to produce client-requested deliverables in a timely manner.',
+                'Teach programming concepts both internally and at a high school.'
             ]
         },
         {
@@ -52,7 +52,6 @@ export default  {
             dates: '03/17 – 03/18',
             tasks: [
                 'Provided quality assurance to a multitude of projects and websites.',
-                'Worked in tight-knit Agile teams to produce client-requested deliverables in a timely manner.', 
                 'Performed smoke and regression testing on websites during deployment.',
                 'Created and maintained Selenium automation framework.'
             ]

@@ -26,8 +26,9 @@ export default {
 
 .section {
     .title {
+        margin-bottom: 5px;
         font-size: 1.25rem;
-        color: #42b983;
+        color: #02a9ea;
     }
 }
 .item- {
@@ -35,6 +36,23 @@ export default {
         white-space: nowrap;
     }
     &experience {
+        font-size: 0.8rem;
+
+        > .position {
+            font-size: 1.05rem;
+            font-weight: 300;
+        }
+        > .workplace {
+            font-weight: 500;
+        }
+        > .tasks {
+            list-style: square;
+        }
+    }
+    &education {
+        &:first-child {
+            margin: 10px 0 15px;
+        }
     }
 }
 .list {
@@ -44,8 +62,7 @@ export default {
     &languages, &tools {
         padding: 10px 0;
         font-size: 1rem;
-        font-weight: 600;
-        grid-gap: 40px;
+        grid-gap: 20px;
         grid-template-columns: repeat(auto-fill, minmax(auto, 100px));
     }
     &tools {
