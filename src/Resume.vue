@@ -64,24 +64,23 @@ export default {
 </script>
 
 <style lang="scss">
-$primaryColor: #28262c;
 body, html {
     background-color: #ffffff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #222222;
-    margin: 10px 15px 0;
+    color: #333333;
+    margin: 10px 15px;
     font-size: 15px;
 
     @media screen and (min-width: 760px) {
-        margin: 10px 30px 0;
+        margin: 10px 30px;
         font-size: 16px;
     }
     @media screen and (min-width: 1080px) {
-        margin: 10px 60px 0;
+        margin: 25px 60px 50px;
     }
 }
 a {
-    color: #5da9e9;
+    color: #3e92cc;
     text-decoration: none;
     transition: 0.2s color;
 
@@ -89,8 +88,12 @@ a {
         text-decoration: underline;
     }
 }
+.container {
+    animation: 1s fadeIn;
+}
 .header {
     > .title {
+        color: #4f5d75;
         font-size: 1.75rem;
         margin: 0;
 
@@ -120,6 +123,14 @@ a {
         @media screen and (min-width: 760px) {
             display: inline;
         }
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
     }
 }
 </style>

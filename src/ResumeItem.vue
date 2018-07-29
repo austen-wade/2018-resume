@@ -29,17 +29,18 @@ export default {
     margin: 20px 0;    
 
     > .title {
+        color: #4f5d75;
         padding-bottom: 5px;
         margin-bottom: 10px;
-        border-bottom: 1px solid #222222;
+        border-bottom: 1px solid #4f5d75;
         font-size: 1.25rem;
+        font-weight: 900;
 
         @media screen and (min-width: 760px) {
             font-size: 1.5rem;
         }
     }
-    > .list {
-    }
+    > .list {}
 }
 .section.languages,
 .section.libraries,
@@ -70,10 +71,32 @@ export default {
 .section.education {
     .item {
         margin: 10px 0;
+
+        > .dates {
+            font-size: 0.95rem;
+            color: #444444;
+        }
     }
 }
 
 // Experience
-.section.experience {}
+.section.experience {
+    .item {
+        > .position {
+            font-size: 1.05rem;
+            color: black;
+        }
+        > .workplace {
+            color: #222222;
+        }
+        > .dates,
+        > .tasks {
+            color: #444444;
+        }
+        > .tasks {
+            list-style-type: square;
+        }
+    }
+}
 
 </style>

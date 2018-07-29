@@ -2,14 +2,15 @@ export default  {
     introduction: `Lifelong computer geek with passion for 
     web development &amp; web design seeking a tech career where 
     my coding skills and attention to detail can be well utilized.`,
-    
+
     languages: [
         'Javascript',
         'CSS',
         'Python',
         'PHP',
         'Java',
-        'C#'
+        'C#',
+        'Ruby'
     ],
     libraries: [
         'Sass',
@@ -29,7 +30,8 @@ export default  {
         'Git',
         'Wordpress',
         'Adobe Experience Manager',
-        'Adobe Photoshop CC'
+        'Adobe Photoshop CC',
+        'Sketch'
     ],
     education: [
         {
