@@ -87,10 +87,12 @@ export default {
             color: black;
         }
         > .workplace {
+            font-size: 0.95rem;
             color: #222222;
         }
         > .dates,
         > .tasks {
+            font-size: 0.9rem;
             color: #444444;
         }
         > .tasks {

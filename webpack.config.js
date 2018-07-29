@@ -21,7 +21,7 @@ module.exports = {
                 use: [
                     'css-loader'
                 ]
-            }
+            },
             {
                 test: /\.scss$/,
                 use: [
@@ -44,8 +44,5 @@ module.exports = {
     },
     plugins: [
         new VueLoaderPlugin()
-    ],
-    devServer: {
-        contentBase: './dist'
-    }
+    ]
 }
