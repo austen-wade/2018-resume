@@ -6,12 +6,12 @@
                 <a class="link email" href="mailto:austen.wade.ut@gmail.com">austen.wade.ut@gmail.com</a>
                 <span class="separator">|</span>
                 <a class="link phone" href="tel:801-989-2439">801-989-2439</a>
-                <span class="separator">|</span>
-                <a class="link linkedin" href="https://www.linkedin.com/in/austen-wade-3b723613b/">LinkedIn</a>
-                <span class="separator">|</span>
-                <a class="link github" target="_blank" href="https://www.github.com/austen-wade">GitHub</a>
-                <span class="separator">|</span>
-                <a class="link codepen" target="_blank" href="https://www.codepen.io/austen-wade">CodePen</a>
+                <span class="separator -hide-print">|</span>
+                <a class="link linkedin -hide-print" href="https://www.linkedin.com/in/austen-wade-3b723613b/">LinkedIn</a>
+                <span class="separator -hide-print">|</span>
+                <a class="link github -hide-print" target="_blank" href="https://www.github.com/austen-wade">GitHub</a>
+                <span class="separator -hide-print">|</span>
+                <a class="link codepen -hide-print" target="_blank" href="https://www.codepen.io/austen-wade">CodePen</a>
             </div>
         </div>
 
@@ -80,6 +80,9 @@ body, html {
     @media screen and (min-width: 1080px) {
         margin: 25px 60px 50px;
     }
+    @media print {
+        margin: 0 30px 0;
+    }
 }
 a {
     color: #3e92cc;
@@ -102,28 +105,41 @@ a {
         @media screen and (min-width: 760px) {
             font-size: 2rem;
         }
+        @media print {
+            font-size: 1.5rem;
+        }
     }
 }
 .contact-info {
     line-height: 1.25;
     font-size: 1.2rem;
 
-    @media screen and (min-width: 760px) {
+    @media (min-width: 760px) {
         font-size: 1rem;
     }
 
     > .link {
         display: block;
 
-        @media screen and (min-width: 760px) {
+        @media (min-width: 760px) {
             display: inline;
+        }
+        @media print {
+            &.-hide-print {
+                display: none;
+            }
         }
     }
     > .separator {
         display: none;
 
-        @media screen and (min-width: 760px) {
+        @media (min-width: 760px) {
             display: inline;
+        }
+        @media print {
+            &.-hide-print {
+                display: none;
+            }
         }
     }
 }

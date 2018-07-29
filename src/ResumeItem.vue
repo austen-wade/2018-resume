@@ -39,8 +39,15 @@ export default {
         @media screen and (min-width: 760px) {
             font-size: 1.5rem;
         }
+        @media print {
+            font-size: 1.1rem;
+        }
     }
-    > .list {}
+    .item {
+        @media print {
+            font-size: 0.8rem;
+        }
+    }
 }
 .section.languages,
 .section.libraries,
@@ -57,17 +64,6 @@ export default {
     }
 }
 
-// Languages
-.section.languages {
-}
-
-// Libraries
-.section.libraries {}
-
-// Tools
-.section.tools {}
-
-// Education
 .section.education {
     .item {
         margin: 10px 0;
@@ -75,25 +71,40 @@ export default {
         > .dates {
             font-size: 0.95rem;
             color: #444444;
+
+            @media print {
+               font-size: 0.8rem;
+            }
         }
     }
 }
 
-// Experience
 .section.experience {
     .item {
         > .position {
             font-size: 1.05rem;
             color: black;
+
+            @media print {
+               font-size: 0.8rem;
+            }
         }
         > .workplace {
             font-size: 0.95rem;
             color: #222222;
+
+            @media print {
+               font-size: 0.7rem;
+            }
         }
         > .dates,
         > .tasks {
             font-size: 0.9rem;
             color: #444444;
+
+            @media print {
+               font-size: 0.75rem;
+            }
         }
         > .tasks {
             list-style-type: square;
