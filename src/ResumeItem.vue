@@ -1,6 +1,6 @@
 <template>
     <div :class="type" class="section">
-        <div class="title">{{ type | capitalize }}</div>
+        <div class="title">{{ title }}</div>
         <div :class="'list list-'+type">
             <slot></slot>
         </div>
@@ -10,7 +10,8 @@
 <script>
 export default {
   props: {
-    type: String
+    type: String,
+    title: String
   },
   filters: {
     capitalize: function(value) {
@@ -25,54 +26,54 @@ export default {
 <style lang="scss">
 
 .section {
-    .title {
-        margin-bottom: 5px;
+    margin: 20px 0;    
+
+    > .title {
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #222222;
         font-size: 1.25rem;
-        color: #02a9ea;
-    }
-}
-.item- {
-    &language, &tool {
-        white-space: nowrap;
-    }
-    &experience {
-        font-size: 0.8rem;
 
-        > .position {
-            font-size: 1.05rem;
-            font-weight: 300;
-        }
-        > .workplace {
-            font-weight: 500;
-        }
-        > .tasks {
-            list-style: square;
+        @media screen and (min-width: 760px) {
+            font-size: 1.5rem;
         }
     }
-    &education {
-        &:first-child {
-            margin: 10px 0 15px;
+    > .list {
+    }
+}
+.section.languages,
+.section.libraries,
+.section.tools {
+    .item {
+        &:after {
+            content: ', ';
+        }
+    }
+    .item:last-child {
+        &:after {
+            content: none;
         }
     }
 }
-.list {
-    display: grid;
-}
-.list- {
-    &languages, &tools {
-        padding: 10px 0;
-        font-size: 1rem;
-        grid-gap: 20px;
-        grid-template-columns: repeat(auto-fill, minmax(auto, 100px));
-    }
-    &tools {
 
-    }
-    &experience {
-    }
-    &education {
+// Languages
+.section.languages {
+}
 
+// Libraries
+.section.libraries {}
+
+// Tools
+.section.tools {}
+
+// Education
+.section.education {
+    .item {
+        margin: 10px 0;
     }
 }
+
+// Experience
+.section.experience {}
 
 </style>

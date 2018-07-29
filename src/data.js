@@ -11,18 +11,25 @@ export default  {
         'Java',
         'C#'
     ],
-    tools: [
-        'Git',
+    libraries: [
         'Sass',
         'Less',
-        'Task Runners',
-        'Wordpress',
-        'AEM',
-        'Vue.js',
         'React',
-        'Angular 6',
+        'Vue.js',
+        'Gulp',
+        'Grunt',
+        'Webpack',
         'Selenium',
         'jQuery',
+        'GSAP',
+        'Sling',
+        'OSGi'
+    ],
+    tools: [
+        'Git',
+        'Wordpress',
+        'Adobe Experience Manager',
+        'Adobe Photoshop CC'
     ],
     education: [
         {
