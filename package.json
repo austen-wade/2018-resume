@@ -4,18 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "dev": "webpack-dev-server --mode development",
+    "prod": "webpack --mode production"
   },
   "author": "austen wade",
   "license": "ISC",
   "devDependencies": {
-    "@vue/component-compiler-utils": "^2.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
     "node-sass": "^4.9.2",
-    "parcel-bundler": "1.9.7",
-    "vue-template-compiler": "^2.5.16"
+    "sass-loader": "^7.0.3",
+    "vue-loader": "^15.2.6",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
-    "vue": "^2.5.16",
-    "vue-hot-reload-api": "^2.3.0"
+    "vue": "^2.5.16"
   }
 }
