@@ -56,7 +56,7 @@ export default {
 		},
 		{
 			workplace: 'Axis41',
-			title: 'Quality Assurance Analyst',
+			title: 'Quality Assurance',
 			dates: '03/17 – 03/18',
 			tasks: [
 				'Provided quality assurance to a multitude of projects and websites.',
