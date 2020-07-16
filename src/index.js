@@ -1,7 +1,12 @@
-import Vue from 'vue';
-import Resume from './Resume.vue';
-import './normalize.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-new Vue({
-    render: h => h( Resume )
-}).$mount( '#app' )
+import './style.scss';
+
+import Resume from './components/Resume';
+
+const App = () => {
+	return <Resume></Resume>;
+};
+
+ReactDOM.render(<App />, document.querySelector('#app'));

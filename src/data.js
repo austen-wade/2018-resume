@@ -7,30 +7,23 @@ export default {
 	libraries: [
 		'React',
 		'Vue.js',
-		'Sass',
-		'Less',
+		'SCSS',
+		'LESS',
 		'Webpack',
-		'Selenium',
 		'GSAP',
+		'Next.js',
+		'OSGi',
 		'Apache Sling',
-		'OSGi'
+		'Selenium',
 	],
 	tools: [
 		'Git',
+		'PostgreSQL',
+		'MongoDB',
+		'Photoshop',
+		'Sketch',
 		'Adobe Experience Manager',
 		'Wordpress',
-		'Adobe Photoshop CC',
-		'Sketch'
-	],
-	education: [
-		// {
-		// 	school: 'Bingham High School',
-		// 	date: 'Graduated 05/14'
-		// },
-		// {
-		// 	school: 'Utah State University',
-		// 	date: '01/16 - 05/16'
-		// }
 	],
 	experience: [
 		{
@@ -40,8 +33,8 @@ export default {
 			tasks: [
 				'Perform site implementations on the Adobe Experience Manager platform.',
 				'Maintain and upgrade highly regarded medical sites for client.',
-				'Collaberate directly with a client-side developer team.'
-			]
+				'Collaberate directly with a client-side developer team.',
+			],
 		},
 		{
 			workplace: 'Axis41',
@@ -51,8 +44,8 @@ export default {
 				'Developed modular web components primarily for Content Management Systems such as Adobe Experience Manager and Wordpress.',
 				'Automated tasks as needed internally, primarily with Python.',
 				'Worked in tight-knit Agile teams to produce client-requested deliverables in a timely manner.',
-				'Taught programming concepts both internally and at a high school.'
-			]
+				'Taught programming concepts both internally and at a high school.',
+			],
 		},
 		{
 			workplace: 'Axis41',
@@ -61,8 +54,8 @@ export default {
 			tasks: [
 				'Provided quality assurance to a multitude of projects and websites.',
 				'Performed smoke and regression testing on websites during deployment.',
-				'Created and maintained Selenium automation framework.'
-			]
+				'Created and maintained Selenium automation framework.',
+			],
 		},
 		{
 			workplace: 'The Home Depot',
@@ -70,8 +63,8 @@ export default {
 			dates: '10/15 – 03/17',
 			tasks: [
 				'Assured a pleasant customer experience, front-end and floor.',
-				'Developed a collaborative environment with fellow associates.'
-			]
-		}
-	]
+				'Developed a collaborative environment with fellow associates.',
+			],
+		},
+	],
 };

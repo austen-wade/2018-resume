@@ -1,0 +1,60 @@
+body,
+html {
+	color: #444;
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+	margin: 15px 0;
+	padding: 0 40px;
+	list-style: square;
+
+	li {
+		margin: 8px 0;
+	}
+}
+
+a {
+	color: #3e92cc;
+	display: inline-block;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #4f5d75;
+	line-height: 1.5;
+}
+
+h2 {
+	margin: 25px 0 5px;
+}
+
+h1 {
+	margin: 0 0 5px;
+}
+
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+
+.container {
+	max-width: 768px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+.position {
+	color: #4f5d75;
+	font-weight: 500;
+}
