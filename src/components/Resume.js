@@ -79,47 +79,6 @@ const Resume = ({ children }) => {
 					</div>
 				))}
 			</ResumeItem>
-
-			{/* 
-			<resume-item type="languages" title="Languages">
-				<span
-					className="item language"
-					data-for="lang in languages"
-					key="lang">
-					{lang}
-				</span>
-			</resume-item>
-
-			<resume-item type="libraries" title="Libraries &amp; Frameworks">
-				<span
-					className="item libraries"
-					data-for="item in libraries"
-					key="item">
-					{item}
-				</span>
-			</resume-item>
-
-			<resume-item type="tools" title="Tools &amp; Software">
-				<span className="item tool" data-for="tool in tools" key="tool">
-					{tool}
-				</span>
-			</resume-item>
-
-			<resume-item type="experience" title="Experience">
-				<div
-					className="item experience"
-					data-for="job in experience"
-					key="job.title">
-					<div className="position">{job.title}</div>
-					<div className="workplace">{job.workplace}</div>
-					<div className="dates">{job.dates}</div>
-					<ul className="tasks">
-						<li data-for="task in job.tasks" key="task">
-							{task}
-						</li>
-					</ul>
-				</div>
-			</resume-item> */}
 		</div>
 	);
 };
