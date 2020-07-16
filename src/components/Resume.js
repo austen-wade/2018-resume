@@ -2,9 +2,7 @@ import React from 'react';
 import data from '../data.js';
 import ResumeItem from './ResumeItem';
 
-console.log(data);
-
-const Resume = ({ children }) => {
+const Resume = () => {
 	return (
 		<div className="container">
 			<div className="header">
