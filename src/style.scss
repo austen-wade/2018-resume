@@ -1,3 +1,6 @@
+$lightblue: #3e92cc;
+$darkblue: #4f5d75;
+
 body,
 html {
 	color: #444;
@@ -16,7 +19,7 @@ ul {
 }
 
 a {
-	color: #3e92cc;
+	color: $lightblue;
 	display: inline-block;
 	text-decoration: none;
 
@@ -31,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #4f5d75;
+	color: $darkblue;
 	line-height: 1.5;
 }
 
@@ -55,6 +58,6 @@ p {
 }
 
 .position {
-	color: #4f5d75;
+	color: $darkblue;
 	font-weight: 500;
 }
