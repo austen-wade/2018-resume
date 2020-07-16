@@ -5,8 +5,4 @@ import './style.scss';
 
 import Resume from './components/Resume';
 
-const App = () => {
-	return <Resume></Resume>;
-};
-
-ReactDOM.render(<App />, document.querySelector('#app'));
+ReactDOM.render(<Resume />, document.querySelector('#app'));
