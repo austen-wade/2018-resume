@@ -6,9 +6,10 @@ export default {
   languages: ["Javascript", "CSS", "Python", "PHP", "Java", "C#"],
   libraries: [
     "React",
-    "Vue.js",
+    "Express",
     "SCSS",
     "LESS",
+    "Vue.js",
     "Webpack",
     "GSAP",
     "Next.js",
