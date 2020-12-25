@@ -34,7 +34,7 @@ export default {
       tasks: [
         "Perform site implementations on the Adobe Experience Manager platform.",
         "Maintain and upgrade highly regarded medical sites for client.",
-        "Collaberate directly with a client-side developer team.",
+        "Collaborate directly with a client-side developer team.",
       ],
     },
     {
@@ -42,7 +42,7 @@ export default {
       title: "Software Engineer",
       dates: "03/18 – 08/19",
       tasks: [
-        "Developed modular web components primarily for Content Management Systems such as Adobe Experience Manager and Wordpress.",
+        "Developed modular web components primarily for content management systems such as Adobe Experience Manager and Wordpress.",
         "Automated tasks as needed internally, primarily with Python.",
         "Worked in tight-knit Agile teams to produce client-requested deliverables in a timely manner.",
         "Taught programming concepts both internally and at a high school.",
