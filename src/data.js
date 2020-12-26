@@ -24,7 +24,7 @@ export default {
     "Photoshop",
     "Sketch",
     "Adobe Experience Manager",
-    "Wordpress",
+    "WordPress",
   ],
   experience: [
     {
@@ -33,7 +33,7 @@ export default {
       dates: "08/19 – Present",
       tasks: [
         "Perform site implementations on the Adobe Experience Manager platform.",
-        "Maintain and upgrade highly regarded medical sites for client.",
+        "Maintain and upgrade highly regarded medical sites for our client.",
         "Collaborate directly with a client-side developer team.",
       ],
     },
@@ -42,9 +42,9 @@ export default {
       title: "Software Engineer",
       dates: "03/18 – 08/19",
       tasks: [
-        "Developed modular web components primarily for content management systems such as Adobe Experience Manager and Wordpress.",
+        "Developed modular web components primarily for content management systems such as Adobe Experience Manager and WordPress.",
         "Automated tasks as needed internally, primarily with Python.",
-        "Worked in tight-knit Agile teams to produce client-requested deliverables in a timely manner.",
+        "Worked in tight-knit Agile teams to promptly produce client-requested deliverables.",
         "Taught programming concepts both internally and at a high school.",
       ],
     },

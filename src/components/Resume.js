@@ -14,7 +14,8 @@ const Resume = () => {
           <br />
           <a
             className="link linkedin -hide-print"
-            href="https://www.linkedin.com/in/austen-wade-3b723613b/"
+            target="_blank"
+            href="https://www.linkedin.com/in/austen-w-3b723613b/"
           >
             LinkedIn
           </a>
