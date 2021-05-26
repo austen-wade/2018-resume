@@ -3,34 +3,29 @@ export default {
     web development &amp; web design seeking a tech career where 
     my coding skills and attention to detail can be well utilized.`,
 
-  languages: ["Javascript", "CSS", "Python", "PHP", "Java", "C#"],
+  languages: ["Javascript", "Python", "Java", "Go", "PHP"],
   libraries: [
     "React",
-    "Express",
     "SCSS",
-    "LESS",
-    "Vue.js",
+    "Express",
     "Webpack",
-    "GSAP",
     "Next.js",
-    "OSGi",
+    "GSAP",
     "Apache Sling",
-    "Selenium",
   ],
   tools: [
     "Git",
     "PostgreSQL",
     "MongoDB",
-    "Photoshop",
-    "Sketch",
     "Adobe Experience Manager",
     "WordPress",
+    "GIMP",
   ],
   experience: [
     {
       workplace: "Hoodoo Digital",
       title: "AEM Engineer",
-      dates: "08/19 – Present",
+      dates: "August 2019 – Present",
       tasks: [
         "Perform site implementations on the Adobe Experience Manager platform.",
         "Maintain and upgrade highly regarded medical sites for our client.",
@@ -40,31 +35,22 @@ export default {
     {
       workplace: "Axis41",
       title: "Software Engineer",
-      dates: "03/18 – 08/19",
+      dates: "March 2018 – August 2019",
       tasks: [
         "Developed modular web components primarily for content management systems such as Adobe Experience Manager and WordPress.",
         "Automated tasks as needed internally, primarily with Python.",
         "Worked in tight-knit Agile teams to promptly produce client-requested deliverables.",
-        "Taught programming concepts both internally and at a high school.",
+        "Taught programming concepts both internally and at a local school.",
       ],
     },
     {
       workplace: "Axis41",
       title: "Quality Assurance",
-      dates: "03/17 – 03/18",
+      dates: "March 2017 – March 2018",
       tasks: [
         "Provided quality assurance to a multitude of projects and websites.",
         "Performed smoke and regression testing on websites during deployment.",
         "Created and maintained Selenium automation framework.",
-      ],
-    },
-    {
-      workplace: "The Home Depot",
-      title: "Service Desk Associate",
-      dates: "10/15 – 03/17",
-      tasks: [
-        "Assured a pleasant customer experience, front-end and floor.",
-        "Developed a collaborative environment with fellow associates.",
       ],
     },
   ],
